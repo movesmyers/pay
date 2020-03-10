@@ -113,7 +113,7 @@ development:
 
 #### Stripe
 
-You'll need to add your private Stripe API key to your Rails secrets `config/secrets.yml`, credentials `rails credentials:edit`
+You'll need to add your private Stripe API key to your Rails secrets `config/secrets.yml`, credentials `rails credentials:edit`. In the Stripe portal, `private_key` is known as "Secret Key", and `public_key` is known as "Publishable key". 
 
 ```yaml
 development:
